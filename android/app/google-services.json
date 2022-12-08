@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "878475493060",
+    "project_id": "practisefcm-2d20d",
+    "storage_bucket": "practisefcm-2d20d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878475493060:android:5b9841f079078098f3d391",
+        "android_client_info": {
+          "package_name": "com.example.practise_fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878475493060-5tblls4t9rn6gp8kqukiicustp4sb2fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmpAGDoLjPBStrud3psP4-iIXrtMJfBro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878475493060-5tblls4t9rn6gp8kqukiicustp4sb2fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
