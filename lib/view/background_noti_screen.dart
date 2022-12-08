@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import '../consts/app_texts.dart';
 
 
 class BackgroundNotiScreen extends StatelessWidget {
-  static const routName ='background-notification';
   BackgroundNotiScreen({super.key, this.txt=''});
   String txt;
 
@@ -10,7 +10,7 @@ class BackgroundNotiScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Background notification'),
+        title: const Text(backgroundPageText),
       ),
       body: Center(
         child: Text(txt),

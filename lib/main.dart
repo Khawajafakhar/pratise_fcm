@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:practise_fcm/firebase_options.dart';
 import 'package:practise_fcm/services/notification_service.dart';
 import './view/home_screen.dart';
-import './view/background_noti_screen.dart';
+import './consts/app_texts.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,14 +18,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: appTitle,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: const HomeScreen(),
-      routes: {
-        BackgroundNotiScreen.routName :(context) => BackgroundNotiScreen()
-      },
+     
     );
   }
 }
